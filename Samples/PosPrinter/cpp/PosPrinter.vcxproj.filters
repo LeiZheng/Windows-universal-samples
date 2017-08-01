@@ -25,6 +25,7 @@
     <ClInclude Include="pch.h" />
     <ClInclude Include="..\..\..\SharedContent\cpp\App.xaml.h" />
     <ClInclude Include="..\..\..\SharedContent\cpp\MainPage.xaml.h" />
+    <ClInclude Include="..\..\..\SharedContent\cpp\DeviceHelpers.h" />
     <ClInclude Include="SampleConfiguration.h" />
     <ClInclude Include="Scenario1_ReceiptPrinter.xaml.h" />
     <ClInclude Include="Scenario2_ErrorHandling.xaml.h" />
@@ -38,11 +39,14 @@
     <Page Include="..\..\..\SharedContent\xaml\Styles.xaml">
       <Filter>Styles</Filter>
     </Page>
-    <Page Include="Scenario1_ReceiptPrinter.xaml" />
-    <Page Include="Scenario2_ErrorHandling.xaml" />
-    <Page Include="Scenario3_MultipleReceipt.xaml" />
+    <Page Include="..\shared\Scenario1_ReceiptPrinter.xaml" />
+    <Page Include="..\shared\Scenario2_ErrorHandling.xaml" />
+    <Page Include="..\shared\Scenario3_MultipleReceipt.xaml" />
   </ItemGroup>
   <ItemGroup>
+    <Image Include="..\..\..\SharedContent\media\Samples\coffee-logo.png">
+      <Filter>Assets</Filter>
+    </Image>
     <Image Include="..\..\..\SharedContent\media\microsoft-sdk.png">
       <Filter>Assets</Filter>
     </Image>
